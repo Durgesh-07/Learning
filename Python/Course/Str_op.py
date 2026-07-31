@@ -22,7 +22,7 @@ else:
     print("No match")
 pattern2 = r"\W"  # Matches any non-word character
 text2 = "Hello, world!"
-matches2 = re.findall(pattern2, text2)
+matches2 = re.findall(pattern2, text2) # Find all non-word characters in the string
 
 print("Matches:", matches2)
 s2 = "The BodyGuard is the best album of 'Whitney Houston'."

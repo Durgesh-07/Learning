@@ -57,3 +57,11 @@ def printDictionary(**args):
         print(key + " : " + args[key])
 
 printDictionary(Country='Canada',Province='Ontario',City='Toronto')
+
+def add(a, b):
+    print(a + b)
+
+nums = [3, 5]
+
+add(nums)    # ❌ Error - passing one argument instead of two
+add(*nums)   # ✅ Works - unpacks to add(3, 5) → prints 8
